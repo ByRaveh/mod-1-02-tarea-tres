@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height : 1.5;
+}
+
+#nav1{
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.menu .lista{
+    display: inline-block;
+}
+
+.lista a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 50px;
+    display: block;
+}
+
+.lista a:hover{
+    background-color: black;
+    color: yellow;
+}
+
+/* Empieza NAV2 */
+
+#nav2{
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+}
+
+#nav2{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#nav2 .abuelo{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+/* Empiezan Titulos y Párrafos (Textos) */
+
+.titulo1{
+    padding: 15px;
+    font-size: 40px;
+}
+
+.titulo2{
+    padding: 15px;
+}
+
+.titulo4{
+    padding: 5px;
+}
+
+.parrafo{
+    padding: 10px;
+}
